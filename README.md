@@ -1,14 +1,10 @@
----
-title: "Impact of COVID-19 on Big Pharma and Health Insurance Stock Prices"
-date: "`r format(Sys.time(), '%B %d, %Y')`"
-output: github_document
----
+
+# "Impact of COVID-19 on Big Pharma and Health Insurance Stock Prices"
 
 # Overview
 
 - __PROJECT TEAM:__ Joseph Trybala, Manas Bharadwaaj Subramanian, Miko Wieczorek, Ritu Kukreja
 - __DATE CREATED:__ 2022-12-02
-- __DATE LAST UPDATED:__ `r format(Sys.time(), '%B %d, %Y')`
 
 ## Stock Data
 
