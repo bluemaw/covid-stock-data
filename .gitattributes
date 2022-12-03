@@ -1,0 +1,4 @@
+**.csv filter=lfs diff=lfs merge=lfs -text
+*.csv filter=lfs diff=lfs merge=lfs -text
+data/rawdata/epidemiology.csv filter=lfs diff=lfs merge=lfs -text
+data/rawdata/vaccinations.csv filter=lfs diff=lfs merge=lfs -text
