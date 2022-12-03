@@ -1,5 +1,5 @@
 
-# "Impact of COVID-19 on Big Pharma and Health Insurance Stock Prices"
+# Impact of COVID-19 on Big Pharma and Health Insurance Stock Prices
 
 # Overview
 
@@ -58,4 +58,4 @@ Jupyter notebook file, **`data_manage.ipynb`**, is used as orchestrator to manag
 
 # GitHub Repo
 
-- [covid_stock_data](...)
+- [covid_stock_data](https://github.com/bluemaw/covid-stock-data)
