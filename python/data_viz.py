@@ -10,7 +10,7 @@ def plot_data(merged_df):
     df = merged_df
 
     matplotlib.rc_file_defaults()
-    ax1 = sns.set_style(rc=None )
+    ax1 = sns.set_style(rc=None)
     fig, ax1 = plt.subplots(figsize=(12,6))
     ax2 = ax1.twinx()
 
@@ -44,19 +44,23 @@ def plot_data(merged_df):
     ax1.set_ylabel('Stock Price (USD)',color=color)
     ax1.tick_params(axis='y', labelcolor=color)
 
-
+    #Format
+    ax1.set_xlabel('Date')
+    ax1.tick_params(axis='x')   
+    
     years = mdates.YearLocator()   # every year
     months = mdates.MonthLocator()  # every month
     years_fmt = mdates.DateFormatter('%Y')
+   
     # format the ticks
     ax1.xaxis.set_major_locator(years)
     ax1.xaxis.set_major_formatter(years_fmt)
     ax1.xaxis.set_minor_locator(months)
 
     # round to nearest years.
-    datemin = np.datetime64(df['dt'][0], 'Y')
-    datemax = np.datetime64(df['dt'].iloc[-1], 'Y') + np.timedelta64(1, 'Y')
-    ax1.set_xlim('2016-11-01', '2022-11-01')
+    # datemin = np.datetime64(df['dt'][0], 'Y')
+    # datemax = np.datetime64(df['dt'].iloc[-1], 'Y') + np.timedelta64(1, 'Y')
+    # ax1.set_xlim('2016-11-01', '2022-11-01')
 
     # format the coords message box
     ax1.format_xdata = mdates.DateFormatter('%b-%Y')
