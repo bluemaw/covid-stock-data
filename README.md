@@ -68,6 +68,12 @@ Our presentation with more details on this project and potential users and appli
 
 Jupyter notebook file, **`data_manage.ipynb`**, is used as orchestrator to manage data retrieval, processing, cleaning, and writing. Make sure that your current working directory is the project root. In this notebook the aforementioned data_processing.py (which contains our API pull script code) and data_viz.py (which contains our plotting script code) are imported as modules.
 
+# Challenges and Limitations
+
+- Our stock data is limited to the United States stock exchange data
+- The issue with COVID data is that reporting is not uniform across all parties involved
+- The API we are utilizing for stock data acquisition has a limit for API calls, which limits our data
+
 # GitHub Repo
 
 Please click link to our GitHub Repository titled [covid stock data](https://github.com/bluemaw/covid-stock-data).
